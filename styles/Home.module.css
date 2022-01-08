@@ -1,0 +1,34 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(131, 210, 255);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 3;
+  background: rgb(250, 223, 164);
+}
+.navbar {
+  background: rgb(153, 240, 218);
+  grid-area: 1 / 3 / 6 / 4;
+}
+.leftSide {
+  background: red;
+  grid-area: 2 / 1 / 6 / 2;
+}
+
+.title {
+  display: block;
+}
+.rightSide {
+  background: white;
+  grid-area: 2 / 2 / 6 / 3;
+}
