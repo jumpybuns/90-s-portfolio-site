@@ -19,6 +19,7 @@
 .navbar {
   background: rgb(153, 240, 218);
   grid-area: 1 / 3 / 6 / 4;
+  width: 10%;
 }
 .leftSide {
   background: red;
